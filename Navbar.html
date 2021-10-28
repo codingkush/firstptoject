@@ -15,18 +15,23 @@
   color:white;
   
 }
+header{
+ display: flex;
+ text-align:center;
+ Padding: 3px;
+}
 
-#logo{
+header #logo{
 text-align : center;
 }
 
-. navigation{
+header .navigation{
   text-transform:uppercase;
   
 }
 ul{
   display:flex;
-  fint-size:4rem;
+  font-size:4rem;
 }
 li{
   list-style:none;
@@ -43,6 +48,12 @@ li:hover{
   color:black;
   backgroundcolor:#fff;
 }
+header #search{
+ border: 2px solid indianred;
+ border-radius:4px;
+ color: blue;
+}
+
   </style>
 </head>
 <body>
@@ -55,6 +66,9 @@ li:hover{
       <li>about</li>
       <li>contact</li> 
       <li>sign in</li></ul>
+    </div>
+    <div id="search">
+     <input type="search" name="search" placeholder="Search your queries">
     </div>
    </header>
 </body>
